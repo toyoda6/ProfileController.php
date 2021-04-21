@@ -41,7 +41,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="introduction">自己紹介欄</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="introduction" rows="10">{{ old('itroduction') }}</textarea>
+                            <textarea class="form-control" name="introduction" rows="10">{{ old('introduction') }}</textarea>
                         </div>
                     </div>
                     
