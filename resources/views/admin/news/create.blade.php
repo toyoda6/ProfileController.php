@@ -33,6 +33,12 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label class="col-md-2" for="date">日付</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" name="date" rows="20">{{ old('date') }}</textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label class="col-md-2" for="title">画像</label>
                         <div class="col-md-10">
                             <input type="file" class="form-control-file" name="image">
